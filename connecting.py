@@ -1,6 +1,6 @@
 import mysql.connector as conn
 
-mydb = conn.connect(host = "localhost", user = "root", passwd = "loveline123#")
+mydb = conn.connect(host = "localhost", user = "root", passwd = "********#")
 print(mydb)
 cursor = mydb.cursor()
 cursor.execute("create database rama")
